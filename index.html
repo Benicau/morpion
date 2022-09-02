@@ -1,0 +1,66 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Jeu de morpion</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <h1 class="text-center">Jeu de morpion</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 offset-4">
+                <h2 class="my-1 text-center"></h2>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-3 offset-3">
+                <div class="jeu my-5 ">
+                    <div data-index="0" class="case"></div>
+                    <div data-index="1" class="case"></div>
+                    <div data-index="2" class="case"></div>
+                    <div data-index="3" class="case"></div>
+                    <div data-index="4" class="case"></div>
+                    <div data-index="5" class="case"></div>
+                    <div data-index="6" class="case"></div>
+                    <div data-index="7" class="case"></div>
+                    <div data-index="8" class="case"></div>
+                </div>
+            </div>
+
+            <div class="col-3 offset-1">
+                <div class="score  my-5 ">
+                    <div class="text-center my-2"> Score joueur X = <span class="joueurX"></span></div>
+                    <div class="text-center my-2"> Score joueur O = <span class="joueurO"></span></div>
+                </div>
+                <div class="btnReplay text-center">
+                    <button id="replay" class="btn btn-success btn-lg">Rejouer</button>
+                </div>
+            </div>
+
+        </div>
+       
+    </div>
+    <script type="text/javascript" src="js.js">
+    </script>
+</body>
+
+</html>
